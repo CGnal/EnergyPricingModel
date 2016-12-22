@@ -3,15 +3,16 @@ Type: Package
 Title: Features for price series prediction using signal decomposition approach
 Version: 0.1.0
 Author: Nicola Donelli
-Maintainer: Nicola Donelli
+Maintainer: Nicola Donelli <ndonelli@cgnal.com>
 Description: Functions to implement signal decomposition and to automatically select best fitting models for the obtained series
 License: ???
 Encoding: UTF-8
-Dependencies: e1071, Metrics, Hmisc, forecast, doParallel, Rlibeemd, foreach
+Dependencies: 
 LazyData: true
 Imports: forecast,
     Metrics,
     foreach,
     Hmisc,
     doParallel,
-    Rlibeemd
+    Rlibeemd,
+    e1071
